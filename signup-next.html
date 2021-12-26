@@ -392,7 +392,7 @@
                                 </div>
                                 <div data-w-tab="Pendidikan" class="signup_content w-tab-pane">
                                     <div class="input-line tempat_lahir"><label for="password" class="field-label">Status<span class="text-span">*</span></label>
-                                        <div class="input_w_icon dropdown"><select id="statususer" name="istatususer" data-name="istatususer" required="" class="dropdown-field w-select">
+                                        <div class="input_w_icon dropdown"><select id="statususer" name="istatususer" data-name="istatususer" required="" class="dropdown-field w-select" onchange="checkuser()">
                         <option value="Siswa">Siswa</option>
                         <option value="Mahasiswa">Mahasiswa</option>
                         <option value="Gamer">Gamer</option>
@@ -481,14 +481,12 @@
                                 <div data-w-tab="Pilihan Program" class="signup_content w-tab-pane">
                                     <div class="input-line"><label for="password" class="field-label">Pilihan Program<span class="text-span">*</span></label>
                                         <div class="input_group"><label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,</span></label>
-                                            <label
-                                                class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" checked="" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt="">
+                                            <label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" checked="" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt="">
                                                 <span
                                                     class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam
                                                     lectus aliquam ante,</span>
                                                     </label><label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,</span></label>
-                                                    <label
-                                                        class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt="">
+                                            <label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt="">
                                                         <span
                                                             class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra,
                                                             diam lectus aliquam ante,</span>
@@ -530,7 +528,6 @@
     <script>
         function checkuser() {
             d = document.getElementById("statususer").value;
-            alert(d);
             if (d == "Siswa") {
                 document.getElementById("user_siswa").style.display = "block";
                 document.getElementById("user_mahasiswa").style.display = "none";
