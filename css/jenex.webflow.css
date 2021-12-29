@@ -8061,6 +8061,34 @@
   font-weight: 700;
 }
 
+.modals_detailvideo_home {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 101;
+  display: none;
+  overflow: scroll;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: rgba(0, 39, 70, 0.8);
+  -webkit-transition: -webkit-box-flex 300ms ease, -webkit-flex 300ms ease;
+  transition: -webkit-box-flex 300ms ease, -webkit-flex 300ms ease;
+  transition: flex 300ms ease;
+  transition: flex 300ms ease, -webkit-box-flex 300ms ease, -webkit-flex 300ms ease, -ms-flex 300ms ease;
+}
+
 @media screen and (max-width: 991px) {
   .btn.btn_primary_filled.fit {
     width: 100%;
