@@ -1306,7 +1306,19 @@
 }
 
 .genx_content_wrap.signup.width_padding {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#aa0e7b), to(#f48c06));
   background-image: linear-gradient(180deg, #aa0e7b, #f48c06);
 }
@@ -3830,6 +3842,8 @@
 }
 
 .signup_wrapper.signup {
+  width: auto;
+  max-width: 40%;
   border-radius: 20px;
 }
 
@@ -3881,7 +3895,7 @@
 }
 
 .input-line {
-  max-width: 50%;
+  max-width: 100%;
   margin-bottom: 15px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3891,6 +3905,10 @@
 
 .input-line.email {
   margin-right: 5px;
+}
+
+.input-line.photo {
+  max-width: 100%;
 }
 
 .input-line.password {
@@ -4543,7 +4561,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 100%;
 }
 
 .btn_back_to_tab_personal {
