@@ -272,9 +272,10 @@
 }
 
 .btn.btn_primary_filled.signup {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: auto;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 100px;
 }
 
 .btn.btn_primary_filled.editprofile {
@@ -1249,6 +1250,10 @@
   width: 100px;
 }
 
+.topbar_logo.signup.show {
+  display: block;
+}
+
 .genx_tab {
   padding: 0px;
 }
@@ -1298,6 +1303,12 @@
 .genx_content_wrap.signup {
   width: 100%;
   padding: 20px;
+}
+
+.genx_content_wrap.signup.width_padding {
+  padding: 60px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#aa0e7b), to(#f48c06));
+  background-image: linear-gradient(180deg, #aa0e7b, #f48c06);
 }
 
 .genx_tab_separator {
@@ -3371,6 +3382,12 @@
   display: flex;
 }
 
+.input-line-group.checkbox_group {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .form-block {
   max-width: 30vw;
   min-height: 80vh;
@@ -3812,6 +3829,10 @@
   object-position: 0% 0%;
 }
 
+.signup_wrapper.signup {
+  border-radius: 20px;
+}
+
 .textarea {
   width: 100%;
   height: 70px;
@@ -4237,10 +4258,10 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 150px;
-  min-width: 150px;
+  width: auto;
+  min-width: 100px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4249,7 +4270,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 100px;
   background-color: #52b69a;
   font-weight: 600;
   text-decoration: none;
@@ -4530,10 +4551,10 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 150px;
-  min-width: 150px;
+  width: auto;
+  min-width: 100px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4545,7 +4566,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #52b69a;
-  border-radius: 5px;
+  border-radius: 100px;
   background-color: #fff;
   color: #34a0a4;
   font-weight: 600;
@@ -4819,10 +4840,10 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 150px;
-  min-width: 150px;
+  width: auto;
+  min-width: 100px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4834,7 +4855,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #52b69a;
-  border-radius: 5px;
+  border-radius: 100px;
   background-color: #fff;
   color: #34a0a4;
   font-weight: 600;
@@ -6830,10 +6851,9 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 150px;
-  min-width: 150px;
+  min-width: 100px;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -6842,7 +6862,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 100px;
   background-color: #52b69a;
   font-weight: 600;
   text-decoration: none;
@@ -8983,6 +9003,38 @@
   margin-bottom: 20px;
 }
 
+.input_check {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  padding: 10px 10px 10px 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #e3f2fd;
+}
+
+.input_check:active {
+  color: #42a5f5;
+}
+
+.checkbox {
+  border-radius: 100px;
+}
+
+.checkbox {
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 991px) {
   .btn.btn_primary_filled.fit {
     width: 100%;
@@ -9229,6 +9281,10 @@
 
   .genx_content_wrap {
     padding: 10px;
+  }
+
+  .genx_content_wrap.signup.width_padding {
+    padding: 40px;
   }
 
   .genx_tab_separator {
@@ -11032,6 +11088,10 @@
     padding: 10px;
   }
 
+  .genx_content_wrap.signup.width_padding {
+    padding: 10px;
+  }
+
   .genx_tab_separator {
     display: block;
     color: #cc1f98;
@@ -11469,6 +11529,25 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .input-line-group.checkbox_group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .user_gamer {
