@@ -2264,6 +2264,7 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 10px;
+  box-shadow: 0 6px 20px -12px rgba(0, 0, 0, 0.41);
 }
 
 .card_post_wrap {
@@ -12369,6 +12370,10 @@
 
   .tab_card.with_bg {
     height: 100%;
+  }
+
+  .tab_card.redeem {
+    box-shadow: 0 6px 30px -4px rgba(0, 0, 0, 0.41);
   }
 
   .card_post_wrap {
