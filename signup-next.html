@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jan 10 2022 02:17:38 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Feb 01 2022 12:08:24 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61c43a411905045dac9171d4" data-wf-site="61ab1a23d46f3030d8489b21">
 <head>
   <meta charset="utf-8">
@@ -51,7 +51,7 @@ textarea {
   <div class="genx_container">
     <div class="topbar"><img src="images/HD_genx_color.svg" loading="lazy" alt="" class="topbar_logo signup show">
       <div class="topbar_left signup">
-        <a data-w-id="61ffac04-f400-3186-e8a4-5d9cd1508588" href="#" class="cta_kyc w-inline-block">
+        <a href="#" class="cta_kyc w-inline-block">
           <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 16 16 12 12 8"></polyline>
@@ -284,6 +284,10 @@ function deleteVideo_confirm() {
   } else {
   }
 }
+$('.navbar_menu_button_grey').on('click', function (evt) {
+  $('.navbar_menu_button').triggerHandler('click');
+  evt.preventDefault();
+});
 </script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
