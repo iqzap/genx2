@@ -1,335 +1,357 @@
-<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!DOCTYPE html>
 <!--  Last Published: Fri Feb 04 2022 13:48:20 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61c3005b29e3776f95fca3b9" data-wf-site="61ab1a23d46f3030d8489b21">
+
 <head>
-  <meta charset="utf-8">
-  <title>Notifikasi</title>
-  <meta content="Notifikasi" property="og:title">
-  <meta content="Notifikasi" property="twitter:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/jenex.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
-  <style>
-	input,
-	textarea,
-	button,
-	select,
-	a {
-	  -webkit-tap-highlight-color: rgba(0,0,0,0);
-	}
-</style>
-  <style>
-body{
-		-webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-</style>
+    <meta charset="utf-8">
+    <title>Notifikasi</title>
+    <meta content="Notifikasi" property="og:title">
+    <meta content="Notifikasi" property="twitter:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/jenex.webflow.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]
+            }
+        });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/webclip.png" rel="apple-touch-icon">
+    <style>
+        input,
+        textarea,
+        button,
+        select,
+        a {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+    <style>
+        body {
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
 </head>
+
 <body class="genx_body">
-  <div data-w-id="eed839c3-82ca-4905-b623-549e73364415" class="modals_detailvideo">
-    <div data-w-id="eed839c3-82ca-4905-b623-549e73364416" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="modals_container unggahvideo">
-      <div class="genx_form w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="modals_form">
-          <div class="modals_title_wrap">
-            <div class="modals_title_text">Detail Video</div>
-            <a data-w-id="eed839c3-82ca-4905-b623-549e7336441c" href="#" class="btn_close modals_unggahvideo w-inline-block">
-              <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+    <div data-w-id="eed839c3-82ca-4905-b623-549e73364415" class="modals_detailvideo">
+        <div data-w-id="eed839c3-82ca-4905-b623-549e73364416" style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+            class="modals_container unggahvideo">
+            <div class="genx_form w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" method="get" class="modals_form">
+                    <div class="modals_title_wrap">
+                        <div class="modals_title_text">Detail Video</div>
+                        <a data-w-id="eed839c3-82ca-4905-b623-549e7336441c" href="#" class="btn_close modals_unggahvideo w-inline-block">
+                            <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
                   <line x1="18" y1="6" x2="6" y2="18"></line>
                   <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg></div>
-            </a>
-          </div>
-          <div class="modals_layout_horizontal_grid">
-            <div class="modals_input">
-              <div class="modals_input_label">Kategori</div><select id="video_category-2" name="video_category-2" data-name="Video Category 2" required="" class="modals_input_select w-select">
+                        </a>
+                    </div>
+                    <div class="modals_layout_horizontal_grid">
+                        <div class="modals_input">
+                            <div class="modals_input_label">Kategori</div><select id="video_category-2" name="video_category-2" data-name="Video Category 2" required="" class="modals_input_select w-select">
                 <option value="satu">Kategori 1</option>
                 <option value="dua">Kategori 2</option>
                 <option value="tiga">Kategori 3</option>
               </select>
-            </div>
-            <div class="modals_input">
-              <div class="modals_input_label">Kategori</div><select id="Tema-A" name="Tema-A" data-name="Tema A" required="" class="modals_input_select w-select">
+                        </div>
+                        <div class="modals_input">
+                            <div class="modals_input_label">Kategori</div><select id="Tema-A" name="Tema-A" data-name="Tema A" required="" class="modals_input_select w-select">
                 <option value="satu">Tema 1</option>
                 <option value="dua">Tema 2</option>
                 <option value="tiga">Tema 3</option>
               </select>
+                        </div>
+                    </div>
+                    <div class="modals_layout_vertical list">
+                        <div class="modals_video_list">
+                            <div class="modals_video_list_item">
+                                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w"
+                                        alt="" class="modals_video_list_item_image"></div>
+                                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
+                                <a href="#" class="btn btn_disabled_filled fit w-inline-block">
+                                    <div>Edit</div>
+                                </a>
+                            </div>
+                            <div class="modals_video_list_item">
+                                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w"
+                                        alt="" class="modals_video_list_item_image"></div>
+                                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
+                                <a href="#" class="btn btn_disabled_filled fit w-inline-block">
+                                    <div>Edit</div>
+                                </a>
+                            </div>
+                            <div class="modals_video_list_item">
+                                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w"
+                                        alt="" class="modals_video_list_item_image"></div>
+                                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
+                                <a href="#" class="btn btn_disabled_filled fit w-inline-block">
+                                    <div>Edit</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modals_layout_horizontal last">
+                        <div class="modals_status_waiting-review">Sedang Menunggu Review</div>
+                    </div>
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
             </div>
-          </div>
-          <div class="modals_layout_vertical list">
-            <div class="modals_video_list">
-              <div class="modals_video_list_item">
-                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w" alt="" class="modals_video_list_item_image"></div>
-                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
-                <a href="#" class="btn btn_disabled_filled fit w-inline-block">
-                  <div>Edit</div>
-                </a>
-              </div>
-              <div class="modals_video_list_item">
-                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w" alt="" class="modals_video_list_item_image"></div>
-                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
-                <a href="#" class="btn btn_disabled_filled fit w-inline-block">
-                  <div>Edit</div>
-                </a>
-              </div>
-              <div class="modals_video_list_item">
-                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w" alt="" class="modals_video_list_item_image"></div>
-                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
-                <a href="#" class="btn btn_disabled_filled fit w-inline-block">
-                  <div>Edit</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="modals_layout_horizontal last">
-            <div class="modals_status_waiting-review">Sedang Menunggu Review</div>
-          </div>
-        </form>
-        <div class="w-form-done">
-          <div>Thank you! Your submission has been received!</div>
         </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div data-w-id="d8da9b2c-17eb-c6a9-80f3-c89e10d1d23a" style="display:flex;opacity:1" class="modals_uploadvideo">
-    <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="modals_container unggahvideo">
-      <div class="genx_form w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="modals_form">
-          <div class="modals_title_wrap">
-            <div class="modals_title_text">Unggah Video</div>
-            <a data-w-id="efe83817-bc84-87d7-4412-be6107849326" href="#" class="btn_close modals_unggahvideo w-inline-block">
-              <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+    <div data-w-id="d8da9b2c-17eb-c6a9-80f3-c89e10d1d23a" style="display:flex;opacity:1" class="modals_uploadvideo">
+        <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+            class="modals_container unggahvideo">
+            <div class="genx_form w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" method="get" class="modals_form">
+                    <div class="modals_title_wrap">
+                        <div class="modals_title_text">Unggah Video</div>
+                        <a data-w-id="efe83817-bc84-87d7-4412-be6107849326" href="#" class="btn_close modals_unggahvideo w-inline-block">
+                            <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
                   <line x1="18" y1="6" x2="6" y2="18"></line>
                   <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg></div>
-            </a>
-          </div>
-          <div class="modals_layout_horizontal_grid">
-            <div class="modals_input">
-              <div class="modals_input_label">Kategori</div><select id="video_category" name="video_category" data-name="video_category" required="" class="modals_input_select w-select">
+                        </a>
+                    </div>
+                    <div class="modals_layout_horizontal_grid">
+                        <div class="modals_input">
+                            <div class="modals_input_label">Kategori</div><select id="video_category" name="video_category" data-name="video_category" required="" class="modals_input_select w-select">
                 <option value="">Pilih Kategori</option>
                 <option value="satu">Kategori 1</option>
                 <option value="dua">Kategori 2</option>
                 <option value="tiga">Kategori 3</option>
               </select>
-            </div>
-            <div class="modals_input">
-              <div class="modals_input_label">Kategori</div><select id="Video-Tema-2" name="Video-Tema" data-name="Video Tema" required="" class="modals_input_select w-select">
+                        </div>
+                        <div class="modals_input">
+                            <div class="modals_input_label">Kategori</div><select id="Video-Tema-2" name="Video-Tema" data-name="Video Tema" required="" class="modals_input_select w-select">
                 <option value="">Pilih Tema</option>
                 <option value="satu">Tema 1</option>
                 <option value="dua">Tema 2</option>
                 <option value="tiga">Tema 3</option>
               </select>
-            </div>
-          </div>
-          <div class="modals_layout_vertical list">
-            <div class="modals_video_list">
-              <div class="modals_video_list_item">
-                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w" alt="" class="modals_video_list_item_image"></div>
-                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
-                <a href="#" class="btn btn_secondary_filled fit w-inline-block">
-                  <div>Edit</div>
-                </a>
-              </div>
-              <div class="modals_video_list_item">
-                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w" alt="" class="modals_video_list_item_image"></div>
-                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
-                <a href="#" class="btn btn_secondary_filled fit w-inline-block">
-                  <div>Edit</div>
-                </a>
-              </div>
-              <div class="modals_video_list_item">
-                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w" alt="" class="modals_video_list_item_image"></div>
-                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
-                <a href="#" class="btn btn_secondary_filled fit w-inline-block">
-                  <div>Edit</div>
-                </a>
-              </div>
-            </div>
-            <a data-w-id="47e47b33-b3c3-a594-de55-31421d44de06" href="#" class="btn btn_secondary_outline tambah_video w-inline-block">
-              <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
+                        </div>
+                    </div>
+                    <div class="modals_layout_vertical list">
+                        <div class="modals_video_list">
+                            <div class="modals_video_list_item">
+                                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w"
+                                        alt="" class="modals_video_list_item_image"></div>
+                                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
+                                <a href="#" class="btn btn_secondary_filled fit w-inline-block">
+                                    <div>Edit</div>
+                                </a>
+                            </div>
+                            <div class="modals_video_list_item">
+                                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w"
+                                        alt="" class="modals_video_list_item_image"></div>
+                                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
+                                <a href="#" class="btn btn_secondary_filled fit w-inline-block">
+                                    <div>Edit</div>
+                                </a>
+                            </div>
+                            <div class="modals_video_list_item">
+                                <div class="modals_video_list_item_image_wrap"><img src="images/placeholder_genx.jpeg" loading="lazy" sizes="100vw" srcset="images/placeholder_genx-p-1080.jpeg 1080w, images/placeholder_genx-p-1600.jpeg 1600w, images/placeholder_genx-p-2000.jpeg 2000w, images/placeholder_genx.jpeg 2250w"
+                                        alt="" class="modals_video_list_item_image"></div>
+                                <div class="modals_video_list_item_text">Tutorial Canon in D Akustik - Intro</div>
+                                <a href="#" class="btn btn_secondary_filled fit w-inline-block">
+                                    <div>Edit</div>
+                                </a>
+                            </div>
+                        </div>
+                        <a data-w-id="47e47b33-b3c3-a594-de55-31421d44de06" href="#" class="btn btn_secondary_outline tambah_video w-inline-block">
+                            <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
                   <line x1="12" y1="5" x2="12" y2="19"></line>
                   <line x1="5" y1="12" x2="19" y2="12"></line>
                 </svg></div>
-              <div class="margin_left10">Tambah Video</div>
-            </a>
-          </div>
-          <div class="modals_layout_horizontal last"><input type="submit" value="Submit untuk Review" data-wait="Tunggu Sebentar" data-w-id="0be4b9d0-2a42-e359-a5b7-85909b15e9ea" class="btn btn_primary_filled w-button">
-            <a data-w-id="0be4b9d0-2a42-e359-a5b7-85909b15e9eb" href="#" class="btn btn_primary_text w-button">Simpan sebagai Draft</a>
-          </div>
-        </form>
-        <div class="w-form-done">
-          <div>Thank you! Your submission has been received!</div>
+                            <div class="margin_left10">Tambah Video</div>
+                        </a>
+                    </div>
+                    <div class="modals_layout_horizontal last"><input type="submit" value="Submit untuk Review" data-wait="Tunggu Sebentar" data-w-id="0be4b9d0-2a42-e359-a5b7-85909b15e9ea" class="btn btn_primary_filled w-button">
+                        <a data-w-id="0be4b9d0-2a42-e359-a5b7-85909b15e9eb" href="#" class="btn btn_primary_text w-button">Simpan sebagai Draft</a>
+                    </div>
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+            </div>
         </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div data-animation="over-left" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
-    <div class="navbar_div">
-      <nav role="navigation" class="navbar_menu w-nav-menu">
-        <div class="navbar_logo_wrap"><img src="images/HD_genx_color.svg" loading="lazy" alt="" class="navbar_logo"></div>
-        <div class="navbar_separator">DASHBOARD</div>
-        <a href="dashboard-home.html" class="navbar_manu_list normal w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+    <div data-animation="over-left" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+        <div class="navbar_div">
+            <nav role="navigation" class="navbar_menu w-nav-menu">
+                <div class="navbar_logo_wrap"><img src="images/HD_genx_color.svg" loading="lazy" alt="" class="navbar_logo"></div>
+                <div class="navbar_separator">DASHBOARD</div>
+                <a href="dashboard-home.html" class="navbar_manu_list normal w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
               <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
               <polyline points="9 22 9 12 15 12 15 22"></polyline>
             </svg></div>
-          <div class="navbar_menu_list_text">Home</div>
-        </a>
-        <a href="redeem.html" class="navbar_manu_list normal w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift">
+                    <div class="navbar_menu_list_text">Home</div>
+                </a>
+                <a href="redeem.html" class="navbar_manu_list normal w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift">
               <polyline points="20 12 20 22 4 22 4 12"></polyline>
               <rect x="2" y="7" width="20" height="5"></rect>
               <line x1="12" y1="22" x2="12" y2="7"></line>
               <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
               <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
             </svg></div>
-          <div class="navbar_menu_list_text">Tukar Diamond</div>
-        </a>
-        <a href="sertifikat.html" class="navbar_manu_list normal w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award">
+                    <div class="navbar_menu_list_text">Tukar Diamond</div>
+                </a>
+                <a href="sertifikat.html" class="navbar_manu_list normal w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award">
               <circle cx="12" cy="8" r="7"></circle>
               <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
             </svg></div>
-          <div class="navbar_menu_list_text">Serifikat</div>
-        </a>
-        <a href="profile.html" class="navbar_manu_list normal mobile_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                    <div class="navbar_menu_list_text">Serifikat</div>
+                </a>
+                <a href="profile.html" class="navbar_manu_list normal mobile_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
             </svg></div>
-          <div class="navbar_menu_list_text">Nama User</div>
-        </a>
-        <div class="navbar_separator">PROGRAMS</div>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text">Nama User</div>
+                </a>
+                <div class="navbar_separator">PROGRAMS</div>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">RYS</div>
-            <div class="navbar_menu_list_text extrasmall">RED YOUTH SQUAD</div>
-          </div>
-        </a>
-        <a href="dashboard.html" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">RYS</div>
+                        <div class="navbar_menu_list_text extrasmall">RED YOUTH SQUAD</div>
+                    </div>
+                </a>
+                <a href="dashboard.html" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">Digisquad</div>
-            <div class="navbar_menu_list_text extrasmall">DIGISQUAD</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">Digisquad</div>
+                        <div class="navbar_menu_list_text extrasmall">DIGISQUAD</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">Genius</div>
-            <div class="navbar_menu_list_text extrasmall">G3NIUS INTERNSHIP STUDENT</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">Genius</div>
+                        <div class="navbar_menu_list_text extrasmall">G3NIUS INTERNSHIP STUDENT</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">MC2U</div>
-            <div class="navbar_menu_list_text extrasmall">MILLENIAL CONTENT CREATOR UNIVERSITY</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">MC2U</div>
+                        <div class="navbar_menu_list_text extrasmall">MILLENIAL CONTENT CREATOR UNIVERSITY</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">Socmed</div>
-            <div class="navbar_menu_list_text extrasmall">SOCIAL MEDIA CHALLENGE</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">Socmed</div>
+                        <div class="navbar_menu_list_text extrasmall">SOCIAL MEDIA CHALLENGE</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">MerdekaBelajar</div>
-            <div class="navbar_menu_list_text extrasmall">SQUAD MERDEKA BELAJAR</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">MerdekaBelajar</div>
+                        <div class="navbar_menu_list_text extrasmall">SQUAD MERDEKA BELAJAR</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">KartuKamu</div>
-            <div class="navbar_menu_list_text extrasmall">AGENT KARTUKAMU</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">KartuKamu</div>
+                        <div class="navbar_menu_list_text extrasmall">AGENT KARTUKAMU</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">TAP</div>
-            <div class="navbar_menu_list_text extrasmall">TELKOMSEL APPRENTICE PROGRAM</div>
-          </div>
-        </a>
-        <a href="#" class="navbar_manu_list normal program_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">TAP</div>
+                        <div class="navbar_menu_list_text extrasmall">TELKOMSEL APPRENTICE PROGRAM</div>
+                    </div>
+                </a>
+                <a href="#" class="navbar_manu_list normal program_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg width="24" height="25" viewbox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path opacity="0.8" d="M19.9814 19.313C20.9255 20.2571 20.9255 21.7878 19.9814 22.732V22.732C19.0373 23.6761 17.5065 23.6761 16.5624 22.732L8.256 14.4256C7.31187 13.4814 7.31187 11.9507 8.256 11.0066V11.0066C9.20014 10.0624 10.7309 10.0624 11.675 11.0066L19.9814 19.313Z" fill="#D6D6D6"></path>
               <path opacity="0.8" d="M16.5816 2.71279C17.5276 1.76684 19.0613 1.76684 20.0072 2.71279V2.71279C20.9532 3.65874 20.9532 5.19242 20.0072 6.13837L11.697 14.4485C10.7511 15.3945 9.21741 15.3945 8.27146 14.4485V14.4485C7.32551 13.5026 7.32551 11.9689 8.27146 11.023L16.5816 2.71279Z" fill="#EAEAEA"></path>
               <path opacity="0.8" d="M6.78442 12.7351L3.6747 15.8448C2.78812 16.7314 2.78812 18.1688 3.6747 19.0554C4.56127 19.942 5.99869 19.942 6.88527 19.0554L9.32915 16.6115L7.9188 15.2012C7.85393 15.1458 7.79073 15.0874 7.72939 15.0261C7.09696 14.3937 6.78197 13.564 6.78442 12.7351Z" fill="#B6B6B6"></path>
               <path opacity="0.8" d="M9.28611 8.9063L7.74633 10.4461C7.74191 10.4505 7.7375 10.4548 7.7331 10.4592C7.72501 10.4673 7.71698 10.4754 7.709 10.4836C7.08627 11.1173 6.77805 11.9443 6.78436 12.7694L3.66175 9.64676C2.77942 8.76443 2.77942 7.33388 3.66175 6.45155C4.54736 5.56593 5.98439 5.56971 6.86534 6.45996L9.28611 8.9063Z" fill="#ECECEC"></path>
             </svg></div>
-          <div class="navbar_menu_list_text_wrap">
-            <div class="navbar_menu_list_text small">YAP</div>
-            <div class="navbar_menu_list_text extrasmall">YOUTH APPRENTICE PROGRAM</div>
-          </div>
-        </a>
-        <div class="navbar_separator">TOURNAMENTS</div>
-        <a href="turnamen.html" class="navbar_manu_list normal w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codesandbox">
+                    <div class="navbar_menu_list_text_wrap">
+                        <div class="navbar_menu_list_text small">YAP</div>
+                        <div class="navbar_menu_list_text extrasmall">YOUTH APPRENTICE PROGRAM</div>
+                    </div>
+                </a>
+                <div class="navbar_separator">TOURNAMENTS</div>
+                <a href="turnamen.html" class="navbar_manu_list normal w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-codesandbox">
               <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
               <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
               <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
@@ -337,127 +359,134 @@ body{
               <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
               <line x1="12" y1="22.08" x2="12" y2="12"></line>
             </svg></div>
-          <div class="navbar_menu_list_text">Tournaments</div>
-        </a>
-        <a href="profile.html" class="navbar_manu_list normal mobile_only w-inline-block">
-          <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
+                    <div class="navbar_menu_list_text">Tournaments</div>
+                </a>
+                <a href="profile.html" class="navbar_manu_list normal mobile_only w-inline-block">
+                    <div class="navbar_menu_list_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
               <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
               <polyline points="16 17 21 12 16 7"></polyline>
               <line x1="21" y1="12" x2="9" y2="12"></line>
             </svg></div>
-          <div class="navbar_menu_list_text">Log Out</div>
-        </a>
-      </nav>
-      <div class="navbar_menu_button_wrapper">
-        <div data-w-id="49da1e75-da16-d09f-8656-9d8f0d8dfd42" class="navbar_menu_button w-nav-button"></div>
-      </div>
+                    <div class="navbar_menu_list_text">Log Out</div>
+                </a>
+            </nav>
+            <div class="navbar_menu_button_wrapper">
+                <div data-w-id="49da1e75-da16-d09f-8656-9d8f0d8dfd42" class="navbar_menu_button w-nav-button"></div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div data-w-id="de39516f-1f6e-5264-560e-0d2ad547a6bc" style="display:none;opacity:0" class="menu_overlay"></div>
-  <div class="genx_container">
-    <div class="topbar">
-      <div data-w-id="8cbe93cb-3851-b27f-4086-db6fec7b0713" class="navbar_menu_button_grey grey">
-        <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <div data-w-id="de39516f-1f6e-5264-560e-0d2ad547a6bc" style="display:none;opacity:0" class="menu_overlay"></div>
+    <div class="genx_container">
+        <div class="topbar">
+            <div data-w-id="8cbe93cb-3851-b27f-4086-db6fec7b0713" class="navbar_menu_button_grey grey">
+                <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
           </svg></div>
-      </div><img src="images/HD_genx_color.svg" loading="lazy" alt="" class="topbar_logo">
-      <div class="topbar_left">
-        <a data-w-id="8cbe93cb-3851-b27f-4086-db6fec7b0717" href="#" class="cta_kyc w-inline-block">
-          <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+            </div><img src="images/HD_genx_color.svg" loading="lazy" alt="" class="topbar_logo">
+            <div class="topbar_left">
+                <a data-w-id="8cbe93cb-3851-b27f-4086-db6fec7b0717" href="#" class="cta_kyc w-inline-block">
+                    <div class="icon_24 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 16 16 12 12 8"></polyline>
               <line x1="8" y1="12" x2="16" y2="12"></line>
             </svg></div>
-          <div class="cta_kyc_text">
-            <div>Dapatkan 20 Diamond Pertamamu!</div>
-            <div class="text-block">Lengkapi profil sekarang</div>
-          </div>
-        </a>
-      </div>
-      <div class="topbar_right">
-        <a href="redeem.html" class="topbar_menu_item blue w-inline-block">
-          <div class="topbar_menu_item_icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="cta_kyc_text">
+                        <div>Dapatkan 20 Diamond Pertamamu!</div>
+                        <div class="text-block">Lengkapi profil sekarang</div>
+                    </div>
+                </a>
+            </div>
+            <div class="topbar_right">
+                <a href="redeem.html" class="topbar_menu_item blue w-inline-block">
+                    <div class="topbar_menu_item_icon w-embed"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 2.5H4.86842L2.5 6.17131L10 17.5M10 2.5H15.1316L17.5 6.17131L10 17.5M10 2.5L12.9167 6.17131L10 17.5M10 2.5L7.08333 6.17131L10 17.5" stroke="currentColor" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg></div>
-          <div class="topbar_menu_item_text text_diamond margin_left10">1.200 </div>
-          <div class="topbar_menu_item_text text_diamond web_only">Diamond</div>
-        </a>
-        <a href="notifikasi.html" aria-current="page" class="topbar_menu_item black w-inline-block w--current">
-          <div class="topbar_menu_item_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
+                    <div class="topbar_menu_item_text text_diamond margin_left10">1.200 </div>
+                    <div class="topbar_menu_item_text text_diamond web_only">Diamond</div>
+                </a>
+                <a href="notifikasi.html" aria-current="page" class="topbar_menu_item black w-inline-block w--current">
+                    <div class="topbar_menu_item_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
               <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
               <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
             </svg></div>
-        </a>
-        <a href="profile.html" class="topbar_menu_item black profile_complete web_only w-inline-block">
-          <div class="topbar_menu_item_text">Nama User</div><img src="images/avatar.png" loading="lazy" alt="" class="topbar_menu_item_icon">
-        </a>
-        <a href="#" class="topbar_menu_item red web_only w-inline-block">
-          <div class="topbar_menu_item_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
+                </a>
+                <a href="profile.html" class="topbar_menu_item black profile_complete web_only w-inline-block">
+                    <div class="topbar_menu_item_text">Nama User</div><img src="images/avatar.png" loading="lazy" alt="" class="topbar_menu_item_icon">
+                </a>
+                <a href="#" class="topbar_menu_item red web_only w-inline-block">
+                    <div class="topbar_menu_item_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
               <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
               <polyline points="16 17 21 12 16 7"></polyline>
               <line x1="21" y1="12" x2="9" y2="12"></line>
             </svg></div>
-        </a>
-      </div>
+                </a>
+            </div>
+        </div>
+        <div class="genx_content_wrap notification">
+            <h1 class="notification_title">Notifikasi</h1>
+            <div class="tab_content_fullwidth vertical notification">
+                <div class="tab_content_wrap notification new">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+                <div class="tab_content_wrap notification new">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+                <div class="tab_content_wrap notification old">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+                <div class="tab_content_wrap notification old">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+                <div class="tab_content_wrap notification old">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+                <div class="tab_content_wrap notification old">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+                <div class="tab_content_wrap notification old">
+                    <div class="card_title_event">Notification Title HERE</div>
+                    <div class="card_date green">23/12/2021</div>
+                    <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper
+                        eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="genx_content_wrap notification">
-      <h1 class="notification_title">Notifikasi</h1>
-      <div class="tab_content_fullwidth vertical notification">
-        <div class="tab_content_wrap notification new">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-        <div class="tab_content_wrap notification new">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-        <div class="tab_content_wrap notification old">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-        <div class="tab_content_wrap notification old">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-        <div class="tab_content_wrap notification old">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-        <div class="tab_content_wrap notification old">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-        <div class="tab_content_wrap notification old">
-          <div class="card_title_event">Notification Title HERE</div>
-          <div class="card_date green">23/12/2021</div>
-          <div class="card_text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet ultricies nunc nulla mattis commodo velit. Ut amet augue nulla ultrices elit adipiscing tempus tempor dui. Commodo a donec velit fermentum. Enim, nunc fringilla ac semper eget mauris. Sagittis maecenas adipiscing amet sit diam ac.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61ab1a23d46f3030d8489b21" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script>
-function deleteVideo_confirm() {
-  let text = "Hapus video {nama_vide}";
-  if (confirm(text) == true) {
-    text = "{nama_video} erhasil dihapus";
-  } else {
-  }
-}
-$('.navbar_menu_button_grey').on('click', function (evt) {
-  $('.navbar_menu_button').triggerHandler('click');
-  evt.preventDefault();
-});
-</script>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61ab1a23d46f3030d8489b21" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    <script>
+        function deleteVideo_confirm() {
+            let text = "Hapus video {nama_vide}";
+            if (confirm(text) == true) {
+                text = "{nama_video} erhasil dihapus";
+            } else {}
+        }
+        $('.navbar_menu_button_grey').on('click', function(evt) {
+            $('.navbar_menu_button').triggerHandler('click');
+            evt.preventDefault();
+        });
+    </script>
 </body>
+
 </html>
