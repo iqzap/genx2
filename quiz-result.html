@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Feb 02 2022 13:19:00 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Feb 04 2022 13:48:20 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61f91d5db71e0f30d3f0ba4f" data-wf-site="61ab1a23d46f3030d8489b21">
 <head>
   <meta charset="utf-8">
@@ -42,45 +42,87 @@ body{
   <div data-animation="over-left" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav"></div>
   <div class="genx_container">
     <div class="topbar quiz"><img src="images/HD_genx_color.svg" loading="lazy" alt="" class="topbar_logo">
-      <a href="dashboard.html" class="btn btn_danger_outline fit w-button">Tutup Quiz</a>
+      <a href="#" class="btn btn_danger_outline fit w-inline-block">
+        <div>Tutup Quz</div>
+        <div class="icon_24 margin_left10 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg></div>
+      </a>
     </div>
     <div class="genx_content_wrap quiz_result">
       <div class="tab_content_fullwidth vertical quiz_result">
         <div class="spash_quiz"><img src="images/party-popper.png" loading="lazy" alt="" class="popper_quiz"><img src="images/trophy.png" loading="lazy" alt="" class="popper_quiz"><img src="images/party-popper.png" loading="lazy" alt="" class="popper_quiz"></div>
-        <div class="peringkat_user_text">Peringkat 43 : Nama User</div>
+        <div class="peringkat_nama">Nama User</div>
+        <div class="peringkat_user_text">Peringkat 43<br>Score 235</div>
         <div class="title_peringkat">Top 10 Quiz</div>
-        <div class="tab_content_wrap juara_1"><img src="images/1st-place-medal_1f947.png" loading="lazy" alt="" class="medal">
-          <div class="card_title_event white">Juara 1 : John Doe</div>
+        <div class="top_3_wrap">
+          <div class="tab_content_wrap juara_2"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo">
+            <div class="medal_wrap"><img src="images/2nd-place-medal_1f948.png" loading="lazy" alt="" class="medal"></div>
+            <div class="card_title_event juara">Juara 2<br>Jane Doe</div>
+            <div class="card_title_event score">590</div>
+          </div>
+          <div class="tab_content_wrap juara_1"><img src="images/anonim-3.png" loading="lazy" sizes="(max-width: 479px) 40vw, (max-width: 767px) 16vw, (max-width: 991px) 80px, 5vw" srcset="images/anonim-3-p-500.png 500w, images/anonim-3.png 966w" alt="" class="winner_photo">
+            <div class="medal_wrap"><img src="images/1st-place-medal_1f947.png" loading="lazy" alt="" class="medal"></div>
+            <div class="card_title_event juara">Juara 1<br>John Doe</div>
+            <div class="card_title_event score">600</div>
+          </div>
+          <div class="tab_content_wrap juara_3"><img src="images/anonim-4.png" loading="lazy" sizes="(max-width: 479px) 50px, (max-width: 767px) 16vw, (max-width: 991px) 80px, 7vw" srcset="images/anonim-4-p-500.png 500w, images/anonim-4.png 957w" alt="" class="winner_photo">
+            <div class="medal_wrap"><img src="images/3rd-place-medal_1f949.png" loading="lazy" alt="" class="medal"></div>
+            <div class="card_title_event juara">Juara 3<br>Budi Doremi</div>
+            <div class="card_title_event score">580</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_2"><img src="images/2nd-place-medal_1f948.png" loading="lazy" alt="" class="medal">
-          <div class="card_title_event white">Juara 2 : Jane Doe</div>
-        </div>
-        <div class="tab_content_wrap juara_3"><img src="images/3rd-place-medal_1f949.png" loading="lazy" alt="" class="medal">
-          <div class="card_title_event white">Juara 3 : Budi Doremi</div>
-        </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 4 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 5 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 6 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 7 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 8 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 9 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
-        <div class="tab_content_wrap juara_lainnya">
+        <div class="tab_content_wrap juara_lainnya"><img src="images/anonim-2.png" loading="lazy" alt="" class="winner_photo_lainnya">
           <div class="card_title_event white">Peringkat 10 : Adam Levine</div>
+          <div class="score_wrap">
+            <div class="card_title_event white">400</div>
+          </div>
         </div>
         <div class="title_peringkat">Jawaban Quiz</div>
         <div class="tab_content_wrap jawaban_quiz salah">
+          <div class="icon_24 red margin_bottom10 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="15" y1="9" x2="9" y2="15"></line>
+              <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg></div>
           <div class="nomor_text">Quiz No. 1</div>
           <div class="pembahasan_text">Siapa Presiden Pertama Republik Indonesia ?</div>
           <div class="jawaban_text benar">A. Ir. Soekarno</div>
@@ -89,6 +131,10 @@ body{
           <div class="jawaban_text">D. Joko Widodo</div>
         </div>
         <div class="tab_content_wrap jawaban_quiz benar">
+          <div class="icon_24 green margin_bottom10 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg></div>
           <div class="nomor_text">Quiz No. 2</div>
           <div class="pembahasan_text">Siapa Presiden Pertama Republik Indonesia ?</div>
           <div class="jawaban_text benar">A. Ir. Soekarno</div>
@@ -97,6 +143,11 @@ body{
           <div class="jawaban_text">D. Joko Widodo</div>
         </div>
         <div class="tab_content_wrap jawaban_quiz salah">
+          <div class="icon_24 red margin_bottom10 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="15" y1="9" x2="9" y2="15"></line>
+              <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg></div>
           <div class="nomor_text">Quiz No. 3</div>
           <div class="pembahasan_text">Siapa Presiden Pertama Republik Indonesia ?</div>
           <div class="jawaban_text benar">A. Ir. Soekarno</div>
@@ -105,6 +156,11 @@ body{
           <div class="jawaban_text">D. Joko Widodo</div>
         </div>
         <div class="tab_content_wrap jawaban_quiz salah">
+          <div class="icon_24 red margin_bottom10 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="15" y1="9" x2="9" y2="15"></line>
+              <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg></div>
           <div class="nomor_text">Quiz No. 4</div>
           <div class="pembahasan_text">Siapa Presiden Pertama Republik Indonesia ?</div>
           <div class="jawaban_text benar">A. Ir. Soekarno</div>
@@ -113,6 +169,10 @@ body{
           <div class="jawaban_text">D. Joko Widodo</div>
         </div>
         <div class="tab_content_wrap jawaban_quiz benar">
+          <div class="icon_24 green margin_bottom10 w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg></div>
           <div class="nomor_text">Quiz No. 5</div>
           <div class="pembahasan_text">Siapa Presiden Pertama Republik Indonesia ?</div>
           <div class="jawaban_text benar">A. Ir. Soekarno</div>
