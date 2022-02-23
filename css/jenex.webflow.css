@@ -13439,6 +13439,7 @@
         width: 100%;
         border-bottom-style: none;
         text-align: left;
+        white-space: nowrap;
     }
     .tab_data_diri.w--current {
         width: 100%;
