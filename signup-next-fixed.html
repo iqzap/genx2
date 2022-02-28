@@ -301,17 +301,37 @@
                                 </div>
                                 <div data-w-tab="Submit" class="signup_content w-tab-pane w--tab-active">
                                     <div class="input-line"><label class="field-label">Pilihan Program<span class="text-span">*</span></label>
-                                        <div class="input_group"><label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,</span></label>
-                                            <label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" checked="" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt="">
-                                                <span
-                                                    class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam
-                                                    lectus aliquam ante,</span>
-                                                    </label><label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,</span></label>
-                                            <label class="w-checkbox input_program"><input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program"><img loading="lazy" src="images/image_placeholder.jpg" alt="">
-                                                        <span
-                                                            class="checkbox_label_program w-form-label" for="pilihan_program"><strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra,
-                                                            diam lectus aliquam ante,</span>
-                                                            </label>
+                                        <div class="input_group">
+                                            <div class="group_program">
+                                                <input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program checkbox-full">
+                                                <label class="w-checkbox input_program">
+                                                    <img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program">
+                                                    <strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,<br>
+                                                    <button class="join_program">Join Program</button>
+                                                    </span>
+                                                    
+                                                </label>
+                                            </div>
+                                            <div class="group_program">
+                                                <input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program checkbox-full">
+                                                <label class="w-checkbox input_program">
+                                                    <img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program">
+                                                    <strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,<br>
+                                                    <button class="join_program">Join Program</button>
+                                                    </span>
+                                                    
+                                                </label>
+                                            </div>
+                                            <div class="group_program">
+                                                <input type="checkbox" name="pilihan_program" id="pilihan_program" data-name="pilihan_program" class="w-checkbox-input checkbox_program checkbox-full">
+                                                <label class="w-checkbox input_program">
+                                                    <img loading="lazy" src="images/image_placeholder.jpg" alt=""><span class="checkbox_label_program w-form-label" for="pilihan_program">
+                                                    <strong class="checkbox_label_title">Red Youth Squad</strong><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in sapien tellus. Curabitur consequat, erat vitae tristique pharetra, diam lectus aliquam ante,<br>
+                                                    <button class="join_program">Join Program</button>
+                                                    </span>
+                                                    
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="snk">Dengan mendaftar, berarti kamu setuju dan telah membaca Syarat &amp; Ketentuan berlaku. Untuk membaca syarat dan ketentuan berlaku klik di sini.</div>
@@ -388,8 +408,14 @@
             $('.tab_personal').triggerHandler('click');
             evt.preventDefault();
         });
-    </script>
-    <script>
+
+        //join_program
+        $('.join_program').on('click', function(evt) {
+            $('.w-checkbox-input.checkbox_program').triggerHandler('click');
+            evt.preventDefault();
+        });
+        //
+
         $('.btn_to_tab_personal').on('click', function(evt) {
             $('.tab_personal').triggerHandler('click');
             evt.preventDefault();
