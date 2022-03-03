@@ -700,6 +700,17 @@
     font-weight: 600;
 }
 
+.btn.btn_danger_filled.fit {
+    width: auto;
+    min-width: 0px;
+    margin: 0px 20px 0px 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .documentation_div_horizaontal {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1082,9 +1093,8 @@
     flex-direction: column;
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: flex-start;
     height: 100vh !important;
-    overflow: scroll;
 }
 
 .navbar_menu.signup {
@@ -11333,8 +11343,8 @@
     min-height: 100%;
     min-width: 100%;
     border-radius: 10px;
-    -o-object-fit: fill;
-    object-fit: fill;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .polling_card_text {

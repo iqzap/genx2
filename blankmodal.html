@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba Modal</title>
+    <script src="js/micromodal.js" type="text/javascript"></script>
+    <link href="css/micromodal.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div id="modal-container" class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header id="modal-header" class="modal__header">
+                    <h2 class="modal__title">
+                        Title here
+                    </h2>
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+                <div id="modal-content-content" class="modal-content-content">
+                    <div id="modal-content" class="modal__content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at justo mattis, efficitur enim quis, mollis ex. Proin id euismod libero, et euismod augue. Sed tincidunt nisl vitae placerat porta. Suspendisse convallis, purus in
+                            lacinia tincidunt, dolor risus semper turpis, sit amet blandit tortor metus quis dolor. Etiam ultrices iaculis volutpat. In consectetur vel metus sed pellentesque. Nullam pulvinar lorem nec mi dignissim, eget ullamcorper erat
+                            fermentum. Curabitur lectus libero, lacinia nec elementum id, pellentesque eget ex. Maecenas interdum tortor at pulvinar tempor. Sed bibendum venenatis rutrum. Ut gravida nulla ut mauris interdum, vel semper metus rutrum. Donec
+                            blandit lacinia risus. Fusce volutpat magna a eros fermentum, ultrices molestie odio molestie. In consequat ultrices mauris, eu auctor ligula pulvinar eget. Cras nec eros sed augue interdum gravida vitae nec purus. Aenean volutpat
+                            imperdiet eros vitae dapibus. Integer porttitor gravida sapien at pulvinar. Pellentesque sapien dui, ultrices a ligula id, vestibulum suscipit urna. Pellentesque velit magna, fringilla ac aliquam quis, rutrum ut mauris. Praesent
+                            vehicula malesuada metus, non pellentesque nisi vehicula quis. Sed porta lectus non ante placerat faucibus sit amet et augue. Aliquam venenatis ex mauris, quis pretium magna pretium nec. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos. Vivamus cursus sapien eget maximus tincidunt. Suspendisse neque dui, varius et mi ut, mattis lacinia lorem. Aliquam tempor in mauris dictum tempus. Suspendisse ac sapien
+                            quam. Phasellus vehicula lacinia nulla quis luctus. Fusce mollis pellentesque porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu interdum leo. Aenean a erat elementum,
+                            posuere diam nec, semper ligula. Suspendisse justo augue, vulputate a mauris non, elementum lacinia risus. Etiam sit amet lacus vel tellus iaculis pellentesque. Nunc posuere maximus elit in lobortis. Integer tempus, nisl vel
+                            dapibus hendrerit, ligula ante aliquam urna, at volutpat augue nibh quis sapien. Aenean fermentum ex eu magna mattis, vel consectetur elit consequat. Sed vehicula nibh ac odio facilisis imperdiet. Suspendisse tincidunt varius
+                            placerat. Integer tristique ligula quis elit rutrum ultrices. Aliquam erat volutpat. Ut imperdiet, est eget placerat volutpat, arcu urna sagittis metus, et consectetur diam risus et lectus. Nam posuere vitae tellus ac interdum.
+                            Mauris tincidunt, turpis nec semper vehicula, felis odio ultrices mauris, eget congue massa ex et nunc. Nam eu elit tempus, dapibus tellus ac, eleifend metus.</p>
+                        <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a data-micromodal-trigger="modal-1" href='javascript:void(0);'>Open Modal Dialog</a>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            try {
+
+                MicroModal.init({
+                    awaitCloseAnimation: true, // set to false, to remove close animation
+                    onShow: function(modal) {
+                        console.log("micromodal open");
+                    },
+                    onClose: function(modal) {
+                        console.log("micromodal close");
+                    }
+                });
+
+            } catch (e) {
+                console.log("micromodal error: ", e);
+            }
+
+        });
+    </script>
+</body>
+
+</html>
